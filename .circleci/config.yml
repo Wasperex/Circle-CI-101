@@ -36,5 +36,5 @@ workflows:
     jobs:
       - build
       - jenga:
-        requires:
-          - build
+          requires:
+            - build
