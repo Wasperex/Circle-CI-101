@@ -37,4 +37,4 @@ workflows:
       - build
       - jenga:
         requires:
-          - one
+          - build
